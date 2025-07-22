@@ -31,21 +31,24 @@ Output Handler (output_handler.py):
 Captures and formats research process output
 Manages real-time display updates
 # 🛠️ Project Structure
-crewai-streamlit-demo/
+
 ├── streamlit_app.py # Main Streamlit application entry point
 ├── requirements.txt # Project dependencies
 └── src/
 ├── components/
 │ ├── researcher.py # Research agent and task implementation
-│ │ # - LLM configuration
-│ │ # - Research task creation
-│ │ # - Exa search integration
+│ │  - LLM configuration
+│ │  - Research task creation
+│ │  - Exa search integration
 │ └── sidebar.py # Sidebar UI and configuration
-│ # - Model selection
-│ # - API key management
-│ # - Ollama integration
+│ - Model selection
+│ - API key management
+│ - Ollama integration
 └── utils/
 └── output_handler.py # Process output management
+
+
+
    # - Real-time output capture
    # - Output formatting
 # 📋 Requirements
